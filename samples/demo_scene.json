@@ -1,0 +1,53 @@
+{
+  "name": "demo_scene",
+  "objects": [
+    {
+      "name": "ground_plane",
+      "type": "plane",
+      "scale": [5.0, 5.0, 1.0],
+      "position": [0, 0, 0],
+      "rotation": [0, 0, 0],
+      "material": {
+        "albedo": [0.75, 0.73, 0.70],
+        "roughness": 0.9,
+        "metalness": 0.0
+      }
+    },
+    {
+      "name": "hero_cube",
+      "type": "cube",
+      "scale": [1.0, 1.0, 1.0],
+      "position": [0, 0, 1],
+      "rotation": [0, 0, 45],
+      "material": {
+        "albedo": [0.2, 0.5, 1.0],
+        "roughness": 0.3,
+        "metalness": 0.8
+      }
+    },
+    {
+      "name": "accent_sphere",
+      "type": "sphere",
+      "scale": [0.5, 0.5, 0.5],
+      "position": [2, 0, 0.5],
+      "rotation": [0, 0, 0],
+      "material": {
+        "albedo": [1.0, 0.77, 0.15],
+        "roughness": 0.15,
+        "metalness": 1.0
+      }
+    },
+    {
+      "name": "pillar",
+      "type": "cylinder",
+      "scale": [0.3, 0.3, 2.0],
+      "position": [-2, 0, 1],
+      "rotation": [0, 0, 0],
+      "material": {
+        "albedo": [0.55, 0.53, 0.50],
+        "roughness": 0.85,
+        "metalness": 0.0
+      }
+    }
+  ]
+}
